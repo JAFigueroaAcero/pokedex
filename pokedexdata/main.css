@@ -1,0 +1,128 @@
+td{
+    vertical-align: bottom;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#main{
+    position: absolute;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+#stats{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 37%;
+    left: 47%;
+}
+#statsc{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 2;
+    top: 37%;
+    left: 45.43%;
+}
+
+#findbutton{
+        background:url(bt.png);
+        cursor: pointer;
+        border:none;
+        width:170px;
+        height:160px;
+}
+
+#showmov{
+    background:url(bt2.png);
+    cursor: pointer;
+    border:none;
+    width: 100px;
+    height:100px;
+}
+#pn{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    left: 10.8%;
+    top: 86%;
+}
+#find{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 72%;
+    left: 25%;
+
+}
+
+#mov{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 72%;
+    left: 70%;
+}
+
+#at{
+    color: gold;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 56.2%;
+    left: 49%;
+}
+#t{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 30.5%;
+    left: 49.5%;
+}
+
+#imgdiv{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 200px;
+    left: 120px;
+}
+
+p{
+    font-size: 12;
+    color: gold;
+}
+
+#peso{
+    color: gold;
+}
+#altura{
+    color: gold;
+}
+
+#a1{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    left: 700px;
+    top: 720px;
+}
+
+#a2{
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1;
+    left: 910px;
+    top:  720px;
+}

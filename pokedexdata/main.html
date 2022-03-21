@@ -1,0 +1,72 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="main">
+        <div id="bg">
+            <img src="pokedex.png" width="80%">
+
+        </div>
+        <div id="imgdiv">
+            <img id="img" src="" width="350x">
+        </div>
+
+        <div id="a1"><p id="altura">ALTURA: </p></div>
+        <div id="a2"><p id="peso">PESO: </p></div>
+
+        <div id="t">
+            <p id="tipo">TIPO: </p>
+        </div>
+        <div id="statsc">
+            <table>
+                <tr>
+                    <td><img src="statlen.png" alt="" width="0px" height="100px"></td>
+                    <td valign="down"><img src="statlen.png" alt="" id="PS" width="40px" height="0"></td>
+                    <td><img src="statlen.png" alt="" id="ATK" width="40px" height="0"></td>
+                    <td><img src="statlen.png" alt="" id="DEF" width="40px" height="0"></td>
+                    <td><img src="statlen.png" alt="" id="SPATK" width="40px" height="0"></td>
+                    <td><img src="statlen.png" alt="" id="SPDEF" width="40px" height="0"></td>
+                    <td><img src="statlen.png" alt="" id="SPEED" width="40px" height="0"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="stats">
+            <table>
+                <tr>
+                    <td valign="down"><img src="emptystat.png" alt="" id="PS" width="40px" height="100px"></td>
+                    <td><img src="emptystat.png" alt="" width="40px" height="100px"></td>
+                    <td><img src="emptystat.png" alt="" width="40px" height="100px"></td>
+                    <td><img src="emptystat.png" alt="" width="40px" height="100px"></td>
+                    <td><img src="emptystat.png" alt="" width="40px" height="100px"></td>
+                    <td><img src="emptystat.png" alt="" width="40px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td><p>PS</p></td>
+                    <td><p>ATK</p></td>
+                    <td><p>DEF</p></td>
+                    <td><p>SP.ATK</p></td>
+                    <td><p>SP.DEF</p></td>
+                    <td><p>SPEED</p></td>
+                </tr>
+            </table>
+        </div>
+        <div id="pn">
+            <input type="text" value="squirtle"id="pname">
+        </div>
+        <div id="find">
+            <input type="button" value="" id="findbutton"onclick="getdata()">
+        </div>
+        <div id="mov">
+            <input type="button" value="" id="showmov" onclick="ab()">
+        </div>
+        <div id="at" style="visibility: hidden">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
